@@ -1,4 +1,4 @@
-# tiny-background-job-redis-ts
+# Tiny Background Jobs App
 creating a simple application to show how to use background jobs
 
 
