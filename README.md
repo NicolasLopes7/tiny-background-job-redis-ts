@@ -5,9 +5,13 @@ Creating a simple application to show how to use background jobs.
 
 ### First steps
 
-> ⛔ Make it sure you have `Docker` and `docker-compose` installed on your device
+> **Warning**
+> 
+> Make it sure you have `docker` and `docker-compose` installed on your device
 
-> 💡 Hover the items of the list below to get more detailed description
+> **Note**
+> 
+> Hover the items of the list below to get more detailed description
 
 - [Clone this repository](# "You can use an external tool or clone directly using the command line using the command \"git clone\"")
 - [Go to the `tiny-background-job-redis-ts` folder](# "This can be usually achieved by the command \"cd [path]\" but you can also use your preferred IDE")
