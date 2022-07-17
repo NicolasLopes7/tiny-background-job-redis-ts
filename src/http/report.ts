@@ -1,8 +1,12 @@
-import { client } from "../database";
 import { Request, Response } from "express";
+import { reportQueue } from "../jobs/report";
 
 export const report = async (req: Request, res: Response) => {
-  const orders = await client.order.findMany({ where: {} });
+  if (!req.query?.authorization) {
+    return res.sendStatus(401);
+  }
 
-  return res.json({ orders });
+  reportQueue.add({});
+
+  return res.sendStatus(201);
 };
