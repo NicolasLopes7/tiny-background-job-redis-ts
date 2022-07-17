@@ -7,7 +7,7 @@ Creating a simple application to show how to use background jobs.
 
 > **Warning**
 > 
-> Make it sure you have `Docker` and `docker-compose` installed on your device
+> Make it sure you have `docker` and `docker-compose` installed on your device
 
 > **Note**
 > 
