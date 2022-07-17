@@ -1,0 +1,19 @@
+version: '3.5'
+
+services:
+  redis:
+    container_name: tiny-jobs-redis
+    image: redis
+    command: redis-server
+    ports:
+    - 6379:6379
+  database:
+    container_name: tiny-jobs-database
+    image: postgres:13
+    environment:
+      POSTGRES_DB: tiny-jobs
+      POSTGRES_USER: tiny-jobs
+      POSTGRES_PASSWORD: tiny-jobs
+    ports:
+    - 5433:5432
+
